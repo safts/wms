@@ -1,0 +1,8 @@
+DBcomm
+entities
+operations
+operations.Product
+operations.Supplier
+operations.SysRole
+operations.User
+operations.Warehouse

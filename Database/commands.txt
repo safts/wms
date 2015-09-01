@@ -1,0 +1,12 @@
+source C:/Users/Sergios/Desktop/Dropbox/TED_2013/Database/wm_db.sql;
+
+mysql> select * from user_role;
++-------------------+----------------------+------------------------+-------------------+-----------------------+-------------------+
+| description       | products_permissions | warehouses_permissions | roles_permissions | suppliers_permissions | users_permissions |
++-------------------+----------------------+------------------------+-------------------+-----------------------+-------------------+
+| administrator     |                    5 |                      5 |                 5 |                     5 |                 5 |
+| n_def             |                    0 |                      0 |                 0 |                     0 |                 0 |
+| supplier          |                    3 |                      2 |                 2 |                     0 |                 0 |
+| warehouse_manager |                    3 |                      3 |                 2 |                     2 |                 0 |
++-------------------+----------------------+------------------------+-------------------+-----------------------+-------------------+
+4 rows in set (0.00 sec)
